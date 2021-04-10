@@ -13,12 +13,14 @@ Arguments
 4) Number of rounds (Integer) - considering the time constraints, around 100 rounds would give a good estimate of the AI's skills 
 5) Printed Information (Boolean) - this could be turned on to see which player is winning at each round. However, for large number of rounds, this should be turned off to speed up the process.
 
-Example execution statements:
-"java Demo play" 
-"java Demo test AI Dummy 100 true"
+Example execution statements
+java Demo play 
+java Demo test AI Dummy 100 true
 
 After running the program, for either mode, the user must input a depth limit for the AI agent's search. A reasonable depth limit would be between 5-10. 
+
 
 The AI implementation uses H-MiniMax with Alpha-Beta pruning.
 The heuristic function considers the number of pieces on board and their positional value.
 Other details are explained with comments in source files.
+
