@@ -14,8 +14,8 @@ Arguments
 5) Printed Information (Boolean) - this could be turned on to see which player is winning at each round. However, for large number of rounds, this should be turned off to speed up the process.
 
 Example execution statements:
-java Demo play 
-java Demo test AI Dummy 100 true
+"java Demo play" 
+"java Demo test AI Dummy 100 true"
 
 After running the program, for either mode, the user must input a depth limit for the AI agent's search. A reasonable depth limit would be between 5-10. 
 
