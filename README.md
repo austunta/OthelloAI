@@ -5,9 +5,8 @@ This OthelloAI implementation has two modes:
 playMode(): a real user can play the Othello game with the AI agent
 testMode(): the AI agent can be tested against itself or a "dummy player" that chooses a random move at each step (90% average success rate against a dummy player).
 
-Arguments 
+Arguments (**Arguments 2-5 are only valid for the test mode**)
 1) Mode - valid options are "play" or "test"
-**Following arguments are only valid for the test mode**
 2) First player (string) - valid options are "AI" or "Dummy"
 3) Second player (string) - valid options are "AI" or "Dummy"
 4) Number of rounds (Integer) - considering the time constraints, around 100 rounds would give a good estimate of the AI's skills 
